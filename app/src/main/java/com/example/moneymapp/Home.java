@@ -31,7 +31,7 @@ public class Home extends AppCompatActivity {
             totalPasivosDatabaseReference, presupuestoGlobalDatabaseReference;
     private String usuario;
     private boolean validarEtapas, validarNumeroRiqueza;
-    
+
 
 
 
