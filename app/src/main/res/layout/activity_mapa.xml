@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorFondo"
+    tools:context="com.example.moneymapp.mapa.Mapa">
+
+
+    <ImageView
+        android:id="@+id/imgvMsalidas"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="salida"
+        android:onClick="iraSalidas"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgvMentradas"
+        app:srcCompat="@drawable/salida" />
+
+    <ImageView
+        android:id="@+id/imgvPresupuesto2"
+        android:layout_width="32dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="28dp"
+        android:contentDescription="volver"
+        android:onClick="irMenuPrincipal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/flecha2" />
+
+    <TextView
+        android:id="@+id/txvMsalidas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/roboto"
+        android:onClick="iraSalidas"
+        android:text="Salidas"
+        android:textColor="@color/colorLetras"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txvMentradas" />
+
+    <TextView
+        android:id="@+id/txvMentradas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/roboto"
+        android:onClick="iraEntradas"
+        android:text="Entradas"
+        android:textColor="@color/colorLetras"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txvMpasivos" />
+
+    <ImageView
+        android:id="@+id/imgvMentradas"
+        android:layout_width="35dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="entradas"
+        android:onClick="iraEntradas"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgvMpasivos"
+        app:srcCompat="@drawable/entrada" />
+
+    <TextView
+        android:id="@+id/txvMpasivos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/roboto"
+        android:onClick="iraPasivos"
+        android:text="Pasivos"
+        android:textColor="@color/colorLetras"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txvMactivos" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="104dp"
+        android:fontFamily="@font/arialbold"
+        android:text="Mapa de Control"
+        android:textColor="#00575c"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgvMactivos"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="240dp"
+        android:contentDescription="activos"
+        android:onClick="irActivos"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/activo1" />
+
+    <TextView
+        android:id="@+id/txvMactivos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="72dp"
+        android:fontFamily="@font/roboto"
+        android:onClick="irActivos"
+        android:text="Activos"
+        android:textColor="@color/colorLetras"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <ImageView
+        android:id="@+id/imgvMpasivos"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="pasivos"
+        android:onClick="iraPasivos"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgvMactivos"
+        app:srcCompat="@drawable/pasivo" />
+
+    <TextView
+        android:id="@+id/txvMReset"
+        android:layout_width="50dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="251dp"
+        android:layout_marginBottom="64dp"
+        android:fontFamily="@font/arial"
+        android:text="@string/reset"
+        android:textColor="@color/colorLetras"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txvMsalidas" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorFondo"
+    tools:context="com.example.moneymapp.estrategias.Estrategias">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txv_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:fontFamily="@font/arialbold"
+                android:text="Estrategias"
+                android:textAlignment="center"
+                android:textColor="@color/colorLetras"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/txv_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:fontFamily="@font/arialbold"
+                android:text="Estrategia n°1:"
+                android:textColor="@color/colorLetras"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/txv_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:fontFamily="@font/arialbold"
+                android:text="Maximiza tus Fuentes de Ingresos"
+                android:textColor="@color/colorLetras"
+                android:textSize="14sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:id="@+id/txv_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:background="@color/colorFondoLetras"
+                android:fontFamily="@font/arialbold"
+                android:padding="10sp"
+                android:text="Muchas veces las personas no se enfocan en sacar mayores beneficios de lo que ya saben o destacan, ignoran el potencial que esto tiene, por el hecho de que aumentar el valor que entregan a una organización como trabajadores traería una mayor liquidación. Un ejemplo de esto sería un trabajador del área de ventas de una empresa en particular que se capacite con un curso de especialización en un área específica de a cuerdo a lo que necesite la empresa, esto haría que gane más beneficios la organización y aumentarían las comisiones para el empleado, por el hecho de que tendría mayor cantidad de ventas."
+                android:textColor="@color/colorLetras"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/txv_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:fontFamily="@font/arialbold"
+                android:text="Estrategia n°2:"
+                android:textColor="@color/colorLetras"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/txv_6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:fontFamily="@font/arialbold"
+                android:text="Reubica Inteligentemente tus Recursos"
+                android:textColor="@color/colorLetras"
+                android:textSize="14sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:id="@+id/txv_7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:background="@color/colorFondoLetras"
+                android:fontFamily="@font/arialbold"
+                android:padding="10sp"
+                android:text="reubicar inteligentemente tus recursos es una de los secretos más relevantes en el tema del dinero, hay casos en donde con tan solo esta entrategia las personas logran llegar a la libertad financiera. Un ejemplo claro puede ser el hecho de realizar esta estrategia en las inversiones en donde con tan solo mover de lugar los recursos invertidos se reciben mayores beneficios.\n\nExisten  2 movimientos básicos en esta estrategia:\n\n1) de mayor a menor rendimiento:\n Cuando tienes tu dinero invertido, y el rendimiento que te da la inversión es menor a la inflación, es momento de hacer una reubicación de recursos. Tan solo con reubicar tu dinero en otrovehículo de inversión puedes aumentar tus ganancias.\n\n 2) de ganancia de capital a flujo efectivo:\n cuando tienes inversiones que no te generan flujo efectivo es momento de hacer una reubicación inteligente de recursos.Existen dos tipos de ganancia en las inversiones.La primera es la ganancia de capital, que no es más que una ganancia de compra-venta que depende de una operación.El segundo tipo es la ganancia de flujo efectivo, donde compras un activo, lo conservas y lo rentabilizas de la manera que el activo te genere flujo de efectivo."
+                android:textColor="@color/colorLetras"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/txv_8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:fontFamily="@font/arialbold"
+                android:text="Estrategia n°3:"
+                android:textColor="@color/colorLetras"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/txv_9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:fontFamily="@font/arialbold"
+                android:text="Rentabiliza tus Posesiones"
+                android:textColor="@color/colorLetras"
+                android:textSize="14sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:id="@+id/txv_10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:background="@color/colorFondoLetras"
+                android:fontFamily="@font/arialbold"
+                android:padding="10sp"
+                android:text="@string/rentabilizar_posesiones"
+                android:textColor="@color/colorLetras"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/txv_11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:fontFamily="@font/arialbold"
+                android:text="Estrategia n°4:"
+                android:textColor="@color/colorLetras"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/txv_12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:fontFamily="@font/arialbold"
+                android:text="Realiza Cobranza Extrema"
+                android:textColor="@color/colorLetras"
+                android:textSize="14sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:id="@+id/txv_13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:background="@color/colorFondoLetras"
+                android:fontFamily="@font/arialbold"
+                android:padding="10sp"
+                android:text="@string/cobranza_extrema"
+                android:textColor="@color/colorLetras"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/txv_14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:fontFamily="@font/arialbold"
+                android:text="Estrategia n°5:"
+                android:textColor="@color/colorLetras"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/txv_15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:fontFamily="@font/arialbold"
+                android:text="Pon a Trabajar tu Efectivo"
+                android:textColor="@color/colorLetras"
+                android:textSize="14sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:id="@+id/txv_16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:layout_marginBottom="20sp"
+                android:background="@color/colorFondoLetras"
+                android:fontFamily="@font/arialbold"
+                android:padding="10sp"
+                android:text="@string/pon_a_trabajar_tu_dinero"
+                android:textColor="@color/colorLetras"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/txv_17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:fontFamily="@font/arialbold"
+                android:text="Estrategia n°6:"
+                android:textColor="@color/colorLetras"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/txv_18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:fontFamily="@font/arialbold"
+                android:text="Sal de Deudas Desructivas"
+                android:textColor="@color/colorLetras"
+                android:textSize="14sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:id="@+id/txv_19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:layout_marginBottom="20sp"
+                android:background="@color/colorFondoLetras"
+                android:fontFamily="@font/arialbold"
+                android:padding="10sp"
+                android:text="@string/sal_deudas_destructivas"
+                android:textColor="@color/colorLetras"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/txv_20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:fontFamily="@font/arialbold"
+                android:text="Estrategia n°7:"
+                android:textColor="@color/colorLetras"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/txv_21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:fontFamily="@font/arialbold"
+                android:text="Maneja Austeridad Absoluta"
+                android:textColor="@color/colorLetras"
+                android:textSize="14sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:id="@+id/txv_22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:layout_marginBottom="20sp"
+                android:background="@color/colorFondoLetras"
+                android:fontFamily="@font/arialbold"
+                android:padding="10sp"
+                android:text="@string/austeridad_absoluta"
+                android:textColor="@color/colorLetras"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

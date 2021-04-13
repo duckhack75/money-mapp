@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorFondo"
+    tools:context="com.example.moneymapp.presupuesto.Servicios">
+
+
+    <EditText
+        android:id="@+id/edtOthersservicios"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="125dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:ems="10"
+        android:hint="Otros:$0"
+        android:inputType="number"
+        android:textColor="@color/colorLetras"
+        android:textColorHint="@color/colorHint"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtLavanderia" />
+
+    <TextView
+        android:id="@+id/txvVaotrosservicios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="25dp"
+        android:fontFamily="@font/arialbold"
+        android:text="$00000"
+        android:textColor="@color/colorLetras"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txvValavanderia" />
+
+    <TextView
+        android:id="@+id/txvVacable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="24dp"
+        android:fontFamily="@font/arialbold"
+        android:text="$00000"
+        android:textColor="@color/colorLetras"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txvVainternet" />
+
+    <TextView
+        android:id="@+id/txvVainternet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="25dp"
+        android:fontFamily="@font/arialbold"
+        android:text="$00000"
+        android:textColor="@color/colorLetras"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txvVatelefono" />
+
+    <TextView
+        android:id="@+id/txvVatelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="25dp"
+        android:text="$00000"
+        android:fontFamily="@font/arialbold"
+        android:textColor="@color/colorLetras"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txvVaagua" />
+
+    <TextView
+        android:id="@+id/txvVaagua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="25dp"
+        android:text="$00000"
+        android:fontFamily="@font/arialbold"
+        android:textColor="@color/colorLetras"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txvValuz" />
+
+    <TextView
+        android:id="@+id/txvVagas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:fontFamily="@font/arialbold"
+        android:text="$00000"
+        android:textColor="@color/colorLetras"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <EditText
+        android:id="@+id/edtCable"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="125dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:ems="10"
+        android:hint="Cable:$0"
+        android:inputType="number"
+        android:textColor="@color/colorLetras"
+        android:textColorHint="@color/colorHint"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtInternet" />
+
+    <EditText
+        android:id="@+id/edtInternet"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="125dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:ems="10"
+        android:hint="Internet:$0"
+        android:inputType="number"
+        android:textColor="@color/colorLetras"
+        android:textColorHint="@color/colorHint"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtTelefono" />
+
+    <EditText
+        android:id="@+id/edtTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="125dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:ems="10"
+        android:hint="Teléfono:$0"
+        android:inputType="number"
+        android:textColor="@color/colorLetras"
+        android:textColorHint="@color/colorHint"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtAgua" />
+
+    <EditText
+        android:id="@+id/edtAgua"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="125dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:ems="10"
+        android:hint="Agua:$0"
+        android:inputType="number"
+        android:textColor="@color/colorLetras"
+        android:textColorHint="@color/colorHint"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtLuz" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="101dp"
+        android:text="Servicios"
+        android:fontFamily="@font/arialbold"
+        android:textColor="@color/colorLetras"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgvPresupuesto"
+        android:layout_width="32dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="28dp"
+        android:onClick="irPresupuesto"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/flecha2" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="44dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="101dp"
+        app:layout_constraintStart_toEndOf="@+id/textView11"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/servicios" />
+
+    <EditText
+        android:id="@+id/edtGas"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="125dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:hint="Gas:$0"
+        android:inputType="number"
+        android:textColor="@color/colorLetras"
+        android:textColorHint="@color/colorHint"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <Button
+        android:id="@+id/btnIngresarDatosServicios"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/button_rounded"
+        android:fontFamily="@font/roboto_medium"
+        android:onClick="ingresarPresupuestoServicios"
+        android:text="ingresar "
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnRestarPresupuestoServicios"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="25dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="Valor Actual"
+        android:textColor="#050505"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgvPresupuesto" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="total :"
+        android:textColor="@color/colorLetras"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toStartOf="@+id/txvTotalServicios"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txvTotalServicios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="$0000"
+        android:textColor="@color/colorLetras"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edtLuz"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="125dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:ems="10"
+        android:hint="Luz:$0"
+        android:inputType="number"
+        android:textColor="@color/colorLetras"
+        android:textColorHint="@color/colorHint"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtGas"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/edtLavanderia"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="125dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:ems="10"
+        android:hint="Lavandería:$0"
+        android:inputType="number"
+        android:textColor="@color/colorLetras"
+        android:textColorHint="@color/colorHint"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtCable" />
+
+    <TextView
+        android:id="@+id/txvValuz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="25dp"
+        android:text="$00000"
+        android:fontFamily="@font/arialbold"
+        android:textColor="@color/colorLetras"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txvVagas"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/txvValavanderia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="25dp"
+        android:text="$00000"
+        android:fontFamily="@font/arialbold"
+        android:textColor="@color/colorLetras"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txvVacable"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnRestarPresupuestoServicios"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="64dp"
+        android:background="@drawable/button_rounded_borde"
+        android:fontFamily="@font/roboto_medium"
+        android:onClick="actualizarPresupuestoServicios"
+        android:text="Restar"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

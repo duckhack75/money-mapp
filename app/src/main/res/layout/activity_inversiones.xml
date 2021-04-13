@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorFondo"
+    tools:context="com.example.moneymapp.mapa.activos.Inversiones">
+
+
+    <TextView
+        android:id="@+id/txvVAproteccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="25dp"
+        android:fontFamily="@font/arialbold"
+        android:text="$00000"
+        android:textColor="@color/colorLetras"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txvVApintelectual" />
+
+    <TextView
+        android:id="@+id/txvVApintelectual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="25dp"
+        android:fontFamily="@font/arialbold"
+        android:text="$00000"
+        android:textColor="@color/colorLetras"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txvVAmetales" />
+
+    <TextView
+        android:id="@+id/txvVAmetales"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="25dp"
+        android:fontFamily="@font/arialbold"
+        android:text="$00000"
+        android:textColor="@color/colorLetras"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txvVAbvalores" />
+
+    <TextView
+        android:id="@+id/txvVAbvalores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="25dp"
+        android:fontFamily="@font/arialbold"
+        android:text="$00000"
+        android:textColor="@color/colorLetras"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txvVAbraices" />
+
+    <TextView
+        android:id="@+id/txvVAnegocios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="25dp"
+        android:fontFamily="@font/arialbold"
+        android:text="$00000"
+        android:textColor="@color/colorLetras"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <EditText
+        android:id="@+id/edtAproteccion"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="125dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:ems="10"
+        android:hint="Protección:$0"
+        android:inputType="number"
+        android:textColor="@color/colorLetras"
+        android:textColorHint="@color/colorHint"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtApintelectual" />
+
+    <EditText
+        android:id="@+id/edtApintelectual"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="125dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:ems="10"
+        android:hint="Propiedad Intelectual:$0"
+        android:inputType="number"
+        android:textColor="@color/colorLetras"
+        android:textColorHint="@color/colorHint"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtAmetales" />
+
+    <EditText
+        android:id="@+id/edtAmetales"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="125dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:ems="10"
+        android:hint="Metales:$0"
+        android:inputType="number"
+        android:textColor="@color/colorLetras"
+        android:textColorHint="@color/colorHint"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtAbvalores" />
+
+    <EditText
+        android:id="@+id/edtAbvalores"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="125dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:ems="10"
+        android:hint="Bolsa de Valores:$0"
+        android:inputType="number"
+        android:textColor="@color/colorLetras"
+        android:textColorHint="@color/colorHint"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtAbraices" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="101dp"
+        android:fontFamily="@font/arialbold"
+        android:text="Inversiones"
+        android:textColor="@color/colorLetras"
+        android:textSize="32sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgvPresupuesto"
+        android:layout_width="32dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="28dp"
+        android:onClick="iraActivos"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/flecha2" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="44dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="101dp"
+        app:layout_constraintStart_toEndOf="@+id/textView11"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/aainvesmant" />
+
+    <EditText
+        android:id="@+id/edtAnegocios"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="125dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:hint="Negocios:$0"
+        android:inputType="number"
+        android:textColor="@color/colorLetras"
+        android:textColorHint="@color/colorHint"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <Button
+        android:id="@+id/btnIngresarainversion"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/button_rounded"
+        android:fontFamily="@font/roboto_medium"
+        android:onClick="ingresarTotalInversiones"
+        android:text="ingresar "
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnRestarainversion"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+    />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="25dp"
+        android:fontFamily="@font/arialbold"
+        android:text="Valor Actual"
+        android:textColor="@color/colorLetras"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txvTotalinversiones" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/arialbold"
+        android:text="Total :"
+        android:textColor="@color/colorLetras"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toStartOf="@+id/txvTotalinversiones"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txvTotalinversiones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="25dp"
+        android:fontFamily="@font/arialbold"
+        android:text="$0000"
+        android:textColor="@color/colorLetras"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edtAbraices"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="125dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:ems="10"
+        android:hint="Bienes Raices:$0"
+        android:inputType="number"
+        android:textColor="@color/colorLetras"
+        android:textColorHint="@color/colorHint"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtAnegocios" />
+
+    <EditText
+        android:id="@+id/edtAotrosinversiones"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="125dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:ems="10"
+        android:hint="Otros:$0"
+        android:inputType="number"
+        android:textColor="@color/colorLetras"
+        android:textColorHint="@color/colorHint"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtAproteccion" />
+
+    <TextView
+        android:id="@+id/txvVAbraices"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="25dp"
+        android:fontFamily="@font/arialbold"
+        android:text="$00000"
+        android:textColor="@color/colorLetras"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txvVAnegocios" />
+
+    <TextView
+        android:id="@+id/txvVAotrossinversiones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="25dp"
+        android:fontFamily="@font/arialbold"
+        android:text="$00000"
+        android:textColor="@color/colorLetras"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txvVAproteccion" />
+
+    <Button
+        android:id="@+id/btnRestarainversion"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="64dp"
+        android:background="@drawable/button_rounded_borde"
+        android:fontFamily="@font/roboto_medium"
+        android:onClick="actualizarTotalInversiones"
+        android:text="Restar"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

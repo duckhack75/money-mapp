@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorFondo"
+    android:layout_height="match_parent"
+    tools:context="com.example.moneymapp.mapa.salidas.Salidas">
+
+
+    <ImageView
+        android:id="@+id/imgvSotros"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="8dp"
+        android:onClick="iraSotros"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgvSinversiones"
+        app:srcCompat="@drawable/aotros" />
+
+    <TextView
+        android:id="@+id/txvSotros"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/roboto"
+        android:onClick="iraSotros"
+        android:text="Otros"
+        android:textColor="@color/colorLetras"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txvSinversiones" />
+
+    <ImageView
+        android:id="@+id/imgvPresupuesto2"
+        android:layout_width="32dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="28dp"
+        android:onClick="iraMapa"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/flecha2" />
+
+    <TextView
+        android:id="@+id/txvSinversiones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/roboto"
+        android:onClick="iraSinversiones"
+        android:text="Inversiones"
+        android:textColor="@color/colorLetras"
+        android:textSize="22dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txvSgasto" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:fontFamily="@font/arialbold"
+        android:text="Salidas"
+        android:textColor="#00575c"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgvSgasto"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="240dp"
+        android:onClick="iraPresupuesto"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/afingresos" />
+
+    <TextView
+        android:id="@+id/txvSgasto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="41dp"
+        android:fontFamily="@font/roboto"
+        android:onClick="iraPresupuesto"
+        android:text="Gasto"
+        android:textColor="@color/colorLetras"
+        android:textSize="22dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+    <ImageView
+        android:id="@+id/imgvSinversiones"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="8dp"
+        android:onClick="iraSinversiones"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgvSgasto"
+        app:srcCompat="@drawable/aainvesmant" />
+
+    <TextView
+        android:id="@+id/txvTsalidasfinal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/arialbold"
+        android:text="0.0"
+        android:textColor="#00575c"
+        android:textSize="54sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:text="$"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="54sp"
+        app:layout_constraintEnd_toStartOf="@+id/txvTsalidasfinal"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

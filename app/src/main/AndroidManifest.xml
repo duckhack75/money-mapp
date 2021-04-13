@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mentorapp">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name="com.example.moneymapp.instrucciones.Instrucciones1"/>
+        <activity android:name="com.example.moneymapp.estrategias.Estrategias" />
+        <activity android:name="com.example.moneymapp.instrucciones.Instrucciones" />
+        <activity android:name="com.example.moneymapp.mapa.salidas.SalidasOtros" />
+        <activity android:name="com.example.moneymapp.mapa.salidas.SalidasInversiones" />
+        <activity android:name="com.example.moneymapp.mapa.salidas.Salidas" />
+        <activity android:name="com.example.moneymapp.mapa.entradas.Eotros" />
+        <activity android:name="com.example.moneymapp.mapa.entradas.Einversiones" />
+        <activity android:name="com.example.moneymapp.mapa.entradas.Efuentesingresos" />
+        <activity android:name="com.example.moneymapp.mapa.entradas.Entradas" />
+        <activity android:name="com.example.moneymapp.mapa.pasivos.Singarantia" />
+        <activity android:name="com.example.moneymapp.mapa.pasivos.Congarantia" />
+        <activity android:name="com.example.moneymapp.mapa.pasivos.Pasivvos" />
+        <activity android:name="com.example.moneymapp.mapa.activos.Posesiones" />
+        <activity android:name="com.example.moneymapp.mapa.activos.Otros" />
+        <activity android:name="com.example.moneymapp.mapa.activos.Liquidos" />
+        <activity android:name="com.example.moneymapp.mapa.activos.Inversiones" />
+        <activity android:name="com.example.moneymapp.mapa.activos.FuenteIngreso" />
+        <activity android:name="com.example.moneymapp.mapa.activos.Activos" />
+        <activity android:name="com.example.moneymapp.mapa.Mapa" />
+        <activity android:name="com.example.moneymapp.deudas.EgresoDeudas" />
+        <activity android:name="com.example.moneymapp.pasivos.IngresoPasivo" />
+        <activity android:name="com.example.moneymapp.presupuesto.Viajes" />
+        <activity android:name="com.example.moneymapp.presupuesto.Hijos" />
+        <activity android:name="com.example.moneymapp.presupuesto.Seguros" />
+        <activity android:name="com.example.moneymapp.presupuesto.Prestamos" />
+        <activity android:name="com.example.moneymapp.presupuesto.Alimentos" />
+        <activity android:name="com.example.moneymapp.RegistroNuevo" />
+        <activity android:name="com.example.moneymapp.LoginInicioSesion" />
+        <activity android:name="com.example.moneymapp.cuenta.CuentaFinal" />
+        <activity android:name="com.example.moneymapp.presupuesto.Servicios" />
+        <activity android:name="com.example.moneymapp.presupuesto.Auto" />
+        <activity android:name="com.example.moneymapp.presupuesto.Casa" />
+        <activity android:name="com.example.moneymapp.cuenta.Cuenta" />
+        <activity android:name="com.example.moneymapp.informe.Informe" />
+        <activity android:name="com.example.moneymapp.deudas.Deudas" />
+        <activity android:name="com.example.moneymapp.pasivos.Pasivos" />
+        <activity android:name="com.example.moneymapp.presupuesto.Presupuesto" />
+        <activity android:name="com.example.moneymapp.MenuPrincipal" />
+        <activity android:name="com.example.moneymapp.Home" />
+        <activity android:name="com.example.moneymapp.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

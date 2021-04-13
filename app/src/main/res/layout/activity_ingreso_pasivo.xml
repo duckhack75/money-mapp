@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorFondo"
+    tools:context="com.example.moneymapp.pasivos.IngresoPasivo">
+
+    <ImageView
+        android:id="@+id/imgvPresupuesto5"
+        android:layout_width="32dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="28dp"
+        android:onClick="iraPasivos2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/flecha2" />
+
+    <Button
+        android:id="@+id/btnEditarp"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/button_rounded"
+        android:onClick="actualizarDatosp"
+        android:text="editar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtNuevomonto" />
+
+    <Button
+        android:id="@+id/btnEliminarg"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/button_rounded_borde"
+        android:onClick="eliminarPasivo"
+        android:text="eliminar"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintStart_toEndOf="@+id/btnEditarp"
+        app:layout_constraintTop_toBottomOf="@+id/edtNuevomonto" />
+
+    <TextView
+        android:id="@+id/txvValoractualg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="24dp"
+        android:fontFamily="@font/arialbold"
+        android:text="$0000"
+        android:textColor="@color/colorLetras"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txvVapasivo" />
+
+    <TextView
+        android:id="@+id/txvVapasivo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="232dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/arialbold"
+        android:text="valor atual"
+        android:textColor="@color/colorLetras"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtViewNombre2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/arialbold"
+        android:text="Editar Ingreso pasivo"
+        android:textColor="@color/colorLetras"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnIngresarg" />
+
+    <Button
+        android:id="@+id/btnIngresarg"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/button_rounded"
+        android:onClick="actualizarGanancia"
+        android:text="ingresar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtGpasivo" />
+
+    <TextView
+        android:id="@+id/txvMontopasivo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="8dp"
+        android:text="monto"
+        android:fontFamily="@font/arialbold"
+        android:textColor="@color/colorLetras"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/txtViewNombre3"
+        app:layout_constraintTop_toBottomOf="@+id/txvNamepasivo" />
+
+    <Button
+        android:id="@+id/btnRestarg"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/button_rounded_borde"
+        android:onClick="restarGanancia"
+        android:text="restar"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintStart_toEndOf="@+id/btnIngresarg"
+        app:layout_constraintTop_toBottomOf="@+id/edtGpasivo" />
+
+    <TextView
+        android:id="@+id/txtViewNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="44dp"
+        android:text="Nombre Ingreso  :"
+        android:textColor="@color/colorLetras"
+        android:fontFamily="@font/arialbold"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtViewNombre6" />
+
+    <TextView
+        android:id="@+id/txtViewNombre6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:text=" Ingreso Pasivo"
+        android:textColor="@color/colorLetras"
+        android:fontFamily="@font/arialbold"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtViewNombre3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="8dp"
+        android:text="Monto inversión :"
+        android:textColor="@color/colorLetras"
+        android:fontFamily="@font/arialbold"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtViewNombre" />
+
+    <TextView
+        android:id="@+id/txtViewNombre5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="32dp"
+        android:text="Ganancia mensual"
+        android:fontFamily="@font/arialbold"
+        android:textColor="@color/colorLetras"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txvMontopasivo" />
+
+    <TextView
+        android:id="@+id/txvNamepasivo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="45dp"
+        android:text="nombre"
+        android:textColor="@color/colorLetras"
+        android:fontFamily="@font/arial"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/txtViewNombre"
+        app:layout_constraintTop_toBottomOf="@+id/txtViewNombre6" />
+
+    <EditText
+        android:id="@+id/edtNuevoname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="95dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:ems="10"
+        android:hint="nombre"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorLetras"
+        android:textColorHint="@color/colorHint"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtViewNombre2" />
+
+    <EditText
+        android:id="@+id/edtNuevomonto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="95dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:ems="10"
+        android:hint="monto de inversión : $0.00"
+        android:inputType="number"
+        android:textColor="@color/colorLetras"
+        android:textColorHint="@color/colorHint"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtNuevoname" />
+
+    <EditText
+        android:id="@+id/edtGpasivo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="95dp"
+        android:ems="10"
+        android:textColorHint="@color/colorHint"
+        android:backgroundTint="@color/colorPrimary"
+        android:hint="$0000"
+        android:textColor="@color/colorLetras"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtViewNombre5" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

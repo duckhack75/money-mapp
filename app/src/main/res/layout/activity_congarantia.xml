@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorFondo"
+    tools:context="com.example.moneymapp.mapa.pasivos.Congarantia">
+
+    <TextView
+        android:id="@+id/txvVGempeno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="24dp"
+        android:fontFamily="@font/arialbold"
+        android:text="$00000"
+        android:textColor="@color/colorLetras"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txvVGprestamocongarantia" />
+
+    <EditText
+        android:id="@+id/edtGempeno"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="125dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:ems="10"
+        android:hint="Empeño:$0"
+        android:inputType="number"
+        android:textColor="@color/colorLetras"
+        android:textColorHint="@color/colorHint"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtGprestamocongarantia" />
+
+    <TextView
+        android:id="@+id/txvVGprestamocongarantia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="24dp"
+        android:fontFamily="@font/arialbold"
+        android:text="$00000"
+        android:textColor="@color/colorLetras"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txvVGcreditoautomotriz" />
+
+    <TextView
+        android:id="@+id/txvVGcreditohipotecario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="25dp"
+        android:fontFamily="@font/arialbold"
+        android:text="$00000"
+        android:textColor="@color/colorLetras"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <EditText
+        android:id="@+id/edtGprestamocongarantia"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="125dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:ems="10"
+        android:hint="Préstamo con Garantía:$0"
+        android:inputType="number"
+        android:textColor="@color/colorLetras"
+        android:textColorHint="@color/colorHint"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtGcreditoautomotriz" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="27dp"
+        android:fontFamily="@font/arialbold"
+        android:text="Con Garantía"
+        android:textColor="@color/colorLetras"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <ImageView
+        android:id="@+id/imgvPresupuesto"
+        android:layout_width="32dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="28dp"
+        android:onClick="iraMPasivos"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/flecha2" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="44dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintStart_toEndOf="@+id/textView11"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:srcCompat="@drawable/congarantia" />
+
+    <EditText
+        android:id="@+id/edtGcreditohipotecario"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="125dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:hint="Crédito Hipotecario:$0"
+        android:inputType="number"
+        android:textColor="@color/colorLetras"
+        android:textColorHint="@color/colorHint"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <Button
+        android:id="@+id/btnIngresarliquido"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/button_rounded"
+        android:fontFamily="@font/roboto_medium"
+        android:onClick="ingresarTotalGarantia"
+        android:text="ingresar "
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnRestarliquido"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="24dp"
+        android:fontFamily="@font/arialbold"
+        android:text="Valor Actual"
+        android:textColor="@color/colorLetras"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txvTotalGarantia" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/arialbold"
+        android:text="Total :"
+        android:textColor="@color/colorLetras"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toStartOf="@+id/txvTotalGarantia"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txvTotalGarantia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/arialbold"
+        android:text="$0000"
+        android:textColor="@color/colorLetras"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edtGcreditoautomotriz"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="125dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:ems="10"
+        android:hint="Crédito Automotriz:$0"
+        android:inputType="number"
+        android:textColor="@color/colorLetras"
+        android:textColorHint="@color/colorHint"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtGcreditohipotecario" />
+
+    <TextView
+        android:id="@+id/txvVGcreditoautomotriz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="25dp"
+        android:fontFamily="@font/arialbold"
+        android:text="$00000"
+        android:textColor="@color/colorLetras"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txvVGcreditohipotecario" />
+
+    <Button
+        android:id="@+id/btnRestarliquido"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="64dp"
+        android:background="@drawable/button_rounded_borde"
+        android:fontFamily="@font/roboto_medium"
+        android:onClick="actualizarTotalGarantia"
+        android:text="Restar"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

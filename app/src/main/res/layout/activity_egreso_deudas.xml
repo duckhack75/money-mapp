@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorFondo"
+    tools:context="com.example.moneymapp.deudas.EgresoDeudas">
+
+    <ImageView
+        android:id="@+id/imgvPresupuesto6"
+        android:layout_width="32dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="28dp"
+        android:onClick="iraDeudas2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/flecha2" />
+
+    <TextView
+        android:id="@+id/txtViewNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="34dp"
+        android:fontFamily="@font/arialbold"
+        android:text="Nombre Deuda  :"
+        android:textColor="@color/colorLetras"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtViewNombre6" />
+
+    <TextView
+        android:id="@+id/txvNamedeuda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="34dp"
+        android:fontFamily="@font/arial"
+        android:text="nombre"
+        android:textColor="@color/colorLetras"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/txtViewNombre"
+        app:layout_constraintTop_toBottomOf="@+id/txtViewNombre6" />
+
+    <TextView
+        android:id="@+id/txtViewNombre3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="8dp"
+        android:text="Monto Deuda :"
+        android:textColor="@color/colorLetras"
+        android:fontFamily="@font/arialbold"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtViewNombre" />
+
+    <TextView
+        android:id="@+id/txvMontodeuda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="8dp"
+        android:text="monto"
+        android:textColor="@color/colorLetras"
+        android:fontFamily="@font/arialbold"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/txtViewNombre3"
+        app:layout_constraintTop_toBottomOf="@+id/txvNamedeuda" />
+
+    <TextView
+        android:id="@+id/txvMontopasivo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="8dp"
+        android:text="Tipo"
+        android:textColor="@color/colorLetras"
+        android:fontFamily="@font/arialbold"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtViewNombre3" />
+
+    <TextView
+        android:id="@+id/txtViewNombre6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="46dp"
+        android:fontFamily="@font/arialbold"
+        android:text="Deudas"
+        android:textColor="@color/colorLetras"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txvMontopasivo3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:text="Estado"
+        android:fontFamily="@font/arialbold"
+        android:textColor="@color/colorLetras"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+    <TextView
+        android:id="@+id/txtViewNombre5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:text="Pago Mensual"
+        android:fontFamily="@font/arialbold"
+        android:textColor="@color/colorLetras"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner" />
+
+    <EditText
+        android:id="@+id/edtNuevomontod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:ems="10"
+        android:hint="monto de deuda"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="@color/colorLetras"
+        android:textColorHint="@color/colorHint"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtNuevonamed" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="120dp"
+        android:background="@drawable/styles_spinner1"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txvMontopasivo3" />
+
+    <Button
+        android:id="@+id/btnIngresarpd"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/button_rounded"
+        android:onClick="ingresarDatos"
+        android:text="ingresar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtPdeuda" />
+
+    <Button
+        android:id="@+id/btnEliminard"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/button_rounded_borde"
+        android:onClick="eliminarDeuda"
+        android:text="eliminar"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintStart_toEndOf="@+id/btnEditard"
+        app:layout_constraintTop_toBottomOf="@+id/edtNuevomontod" />
+
+    <EditText
+        android:id="@+id/edtPdeuda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="95dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="@color/colorLetras"
+        android:textColorHint="@color/colorHint"
+        android:ems="10"
+        android:hint="$0000"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtViewNombre5" />
+
+    <TextView
+        android:id="@+id/txtViewNombre2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="21dp"
+        android:fontFamily="@font/arialbold"
+        android:text="Editar Nombre y Monto Deuda"
+        android:textColor="@color/colorLetras"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnIngresarpd" />
+
+    <TextView
+        android:id="@+id/txvVapasivo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="25dp"
+        android:fontFamily="@font/arialbold"
+        android:text="Total pago"
+        android:textColor="@color/colorLetras"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+    <EditText
+        android:id="@+id/edtNuevonamed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:ems="10"
+        android:hint="nombre"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="@color/colorLetras"
+        android:textColorHint="@color/colorHint"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtViewNombre2" />
+
+    <Button
+        android:id="@+id/btnEditard"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/button_rounded"
+        android:onClick="editDeuda"
+        android:text="editar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtNuevomontod" />
+
+    <TextView
+        android:id="@+id/txvValoractuald"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="25dp"
+        android:fontFamily="@font/arialbold"
+        android:text="$0000"
+        android:textColor="@color/colorLetras"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txvVapasivo" />
+
+    <Button
+        android:id="@+id/btnRestard"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/button_rounded_borde"
+        android:onClick="restaDeuda"
+        android:text="restar"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintStart_toEndOf="@+id/btnIngresarpd"
+        app:layout_constraintTop_toBottomOf="@+id/edtPdeuda" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="315dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="48dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txvMontopasivo2">
+
+        <RadioButton
+            android:id="@+id/rbtConstructiva"
+            android:layout_width="wrap_content"
+            android:textColorHint="@color/colorHint"
+            android:layout_height="wrap_content"
+            android:theme="@style/RadioButtonStyle"
+            android:textColor="@color/colorHint"
+            android:text="Constructiva" />
+
+        <RadioButton
+            android:id="@+id/rbtDestructiva"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:theme="@style/RadioButtonStyle"
+            android:textColor="@color/colorHint"
+            android:text="Destructiva" />
+
+        <RadioButton
+            android:id="@+id/rbtYopresto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:theme="@style/RadioButtonStyle"
+            android:textColor="@color/colorHint"
+            android:text="Yo presto" />
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

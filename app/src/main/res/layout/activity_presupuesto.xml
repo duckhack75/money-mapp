@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorFondo"
+    tools:context="com.example.moneymapp.presupuesto.Presupuesto">
+
+    <TextView
+        android:id="@+id/txvAlimentos6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/roboto"
+        android:onClick="irapViajes"
+        android:text="Viajes"
+        android:textColor="@color/colorLetras"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txvAlimentos5" />
+
+    <ImageView
+        android:id="@+id/imgvAlimento5"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="8dp"
+        android:onClick="irapViajes"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgvAlimento4"
+        app:srcCompat="@drawable/viajefinalpng" />
+
+    <ImageView
+        android:id="@+id/imgvAlimento4"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="6dp"
+        android:onClick="irapHijos"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgvAlimento3"
+        app:srcCompat="@drawable/felicidadpng" />
+
+    <TextView
+        android:id="@+id/txvAlimentos5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/roboto"
+        android:onClick="irapHijos"
+        android:text="Hijos"
+        android:textColor="@color/colorLetras"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txvAlimentos3" />
+
+    <ImageView
+        android:id="@+id/imgvAlimento3"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="8dp"
+        android:onClick="iraSeguros"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgvAlimento2"
+        app:srcCompat="@drawable/seguropng" />
+
+    <TextView
+        android:id="@+id/txvAlimentos4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/roboto"
+        android:onClick="iraPrestamos"
+        android:text="Préstamos"
+        android:textColor="@color/colorLetras"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txvAlimentos2" />
+
+    <ImageView
+        android:id="@+id/imgvAlimento2"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="8dp"
+        android:onClick="iraPrestamos"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgvAlimento"
+        app:srcCompat="@drawable/prestamopng" />
+
+    <TextView
+        android:id="@+id/txvAlimentos3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/roboto"
+        android:onClick="iraSeguros"
+        android:text="Seguros"
+        android:textColor="@color/colorLetras"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txvAlimentos4" />
+
+    <TextView
+        android:id="@+id/txvAlimentos2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/roboto"
+        android:onClick="iraAlimentos"
+        android:text="Alimentos"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txvServicios" />
+
+    <ImageView
+        android:id="@+id/imgvAlimento"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="8dp"
+        android:onClick="iraAlimentos"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgvServicios"
+        app:srcCompat="@drawable/comida" />
+
+    <ImageView
+        android:id="@+id/imgvPresupuesto2"
+        android:layout_width="32dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="28dp"
+        android:onClick="irMenuPrincipal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/flecha2" />
+
+    <TextView
+        android:id="@+id/txvAlimentos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/roboto"
+        android:onClick="iraAlimentos"
+        android:text="Alimentos"
+        android:textColor="@color/colorLetras"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txvServicios" />
+
+    <TextView
+        android:id="@+id/txvServicios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/roboto"
+        android:onClick="iraServicio"
+        android:text="Servicios"
+        android:textColor="@color/colorLetras"
+        android:textSize="22dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txvAuto" />
+
+    <ImageView
+        android:id="@+id/imgvServicios"
+        android:layout_width="35dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="8dp"
+        android:onClick="iraServicio"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgvAuto"
+        app:srcCompat="@drawable/servicios" />
+
+    <TextView
+        android:id="@+id/txvAuto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/roboto"
+        android:onClick="iraAuto"
+        android:text="Automóvil"
+        android:textColor="@color/colorLetras"
+        android:textSize="22dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txvCasa" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:fontFamily="@font/arialbold"
+        android:text="Presupuesto"
+        android:textColor="#00575c"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgvCasa"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="240dp"
+        android:onClick="iraCasa"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/casafinal" />
+
+    <TextView
+        android:id="@+id/txvCasa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="29dp"
+        android:fontFamily="@font/roboto"
+        android:onClick="iraCasa"
+        android:text="Casa"
+        android:textColor="@color/colorLetras"
+        android:textSize="22dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+    <ImageView
+        android:id="@+id/imgvAuto"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="8dp"
+        android:onClick="iraAuto"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgvCasa"
+        app:srcCompat="@drawable/carfinal" />
+
+    <TextView
+        android:id="@+id/txvPresupuestoFinal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/arialbold"
+        android:text="0.0"
+        android:textColor="#00575c"
+        android:textSize="54sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/arialbold"
+        android:text="Mes"
+        android:textColor="#8D8D8D"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="4dp"
+        android:text="$"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="54sp"
+        app:layout_constraintEnd_toStartOf="@+id/txvPresupuestoFinal"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/txvReset"
+        android:layout_width="50dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="166dp"
+        android:fontFamily="@font/arial"
+        android:onClick="resetPresupuesto"
+        android:text="@string/reset"
+        android:textColor="@color/colorLetras"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txvAlimentos3" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="0.6dp"
+        android:layout_marginStart="172dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="180dp"
+        android:background="@color/colorLetras"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txvReset" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

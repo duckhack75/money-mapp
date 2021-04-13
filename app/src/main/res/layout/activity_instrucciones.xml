@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorFondo"
+    tools:context="com.example.moneymapp.instrucciones.Instrucciones">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:fontFamily="@font/arialbold"
+                android:text="Etapas "
+                android:textAlignment="center"
+                android:textColor="@color/colorLetras"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:fontFamily="@font/arialbold"
+                android:text="Etapa 1:"
+                android:textColor="@color/colorLetras"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:fontFamily="@font/arialbold"
+                android:text="Punto de Partida"
+                android:textColor="@color/colorLetras"
+                android:textSize="14sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:id="@+id/textView37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:background="@color/colorFondoLetras"
+                android:fontFamily="@font/arialbold"
+                android:padding="10sp"
+                android:text="Aquí calculas tu mapa de riqueza y Presupuesto mensual(n° de riqueza), decides porque quieres ser financieramente libre.Todo esto te permitirá saber rcual es el estado actual de sus finanzas y podrás usar  estos datos como indicadores de tu evolución a través del tiempo, ambos estarán reflejados en la pantalla de inicio. "
+                android:textColor="@color/colorLetras"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:fontFamily="@font/arialbold"
+                android:text="Etapa 2:"
+                android:textColor="@color/colorLetras"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:fontFamily="@font/arialbold"
+                android:text="Optimizar"
+                android:textColor="@color/colorLetras"
+                android:textSize="14sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:id="@+id/textView40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:background="@color/colorFondoLetras"
+                android:fontFamily="@font/arialbold"
+                android:padding="10sp"
+                android:text="En esta etapa te dedicarás a hacer más eficiente lo que ya tienes. Trabajaras en optimizar tu fuente de ingresos, rentabilizar tus posesiones, hacer más eficientes tus inversiones y poner a trabajar tu efectivo. También realizarás un plan para recuperar lo que te pertenece (algún préstamo que hayas hecho) y salir de las deudas en menos de 2 años. Después utilizarás metodologías para simplificar tu presupuesto mensual, eso te permitirá eliminar todos los desperdicios y gastos emocionales. Darás seguimiento a tus avances a través del Mapa de Riqueza, que deberás actualizar mensualmente, durante 1 año. A partir de aquí utilizarás 3 reglas:\n\n•	REGLA 1: cero posesiones nuevas. \n•	REGLA 2: cero deudas nuevas.\n• REGLA 3: cero gastos nuevos. "
+                android:textColor="@color/colorLetras"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:fontFamily="@font/arialbold"
+                android:text="Etapa 3:"
+                android:textColor="@color/colorLetras"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:fontFamily="@font/arialbold"
+                android:text="Escalar"
+                android:textColor="@color/colorLetras"
+                android:textSize="14sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:background="@color/colorFondoLetras"
+                android:fontFamily="@font/arialbold"
+                android:padding="10sp"
+                android:text="Aquí sigues optmizando lo que ya tienes. Durante esta etapa trabajarás en escalar las ENTRADAS que generan tus fuentes de ingresos, reubixar tus recursos a lugares más rentables, terminar de cobrar el dinero que te deben y liquidar tus deudas de corto plazo.Durante este año también darás seguimiento a tu progreso actualizando mes a mes tu Mapa de Riqueza. Tambien tendrás que respetar las 3 reglas."
+                android:textColor="@color/colorLetras"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView56"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:fontFamily="@font/arialbold"
+                android:text="Etapa 4:"
+                android:textColor="@color/colorLetras"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView57"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:fontFamily="@font/arialbold"
+                android:text="Acelerar"
+                android:textColor="@color/colorLetras"
+                android:textSize="14sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:id="@+id/textView58"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:background="@color/colorFondoLetras"
+                android:fontFamily="@font/arialbold"
+                android:padding="10sp"
+                android:text="Durante esta etapa te dedicarás a incrementar tus fuentes de ingreso, diversificando en tus inversiones y ubicando inteligentemente tu FLUJO DE EFECTIVO (que has logrado construir en los años anteriores).De igual manera que las etapas anteriores darás un seguimimiento mensual a través de tu Mapa de Riqueza y respetarás las 3 reglas(cero nuevas posesiones, deudas y gastos).Al final de este año o etapa deberás haber llegado a la libertad financiera. Podrás darte cuenta veas que los rendimientos de tus inversiones(y/o nuevos flujos) son suficientemente altos como para pagar los gastos de tu estilo de vida."
+                android:textColor="@color/colorLetras"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:fontFamily="@font/arialbold"
+                android:text="Etapa 5:"
+                android:textColor="@color/colorLetras"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView60"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:fontFamily="@font/arialbold"
+                android:text="Mantener"
+                android:textColor="@color/colorLetras"
+                android:textSize="14sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:id="@+id/textView61"
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:layout_marginTop="10sp"
+                android:layout_marginBottom="20sp"
+                android:background="@color/colorFondoLetras"
+                android:fontFamily="@font/arialbold"
+                android:padding="10sp"
+                android:text="después de haber llegado a la meta la idea es que continues incrementando tu Riqueza Neta y Flujo Efectivo Neto. Podrás adquirir nuevas posesiones, nuevos gastos y deudas. Pero no podrán ser mayores a tus ingresos Pasivos, sino perderás todo lo que has avanzado, y veras números negativos en tus indicadores de Riqueza Neta y Flujo Efectivo Neto, para ayudarte a mantener ese equilibrio y control esta aplicación te ayudará con diferentes indicadores en donde si ves que uno de ellos se transforma en negativo por alguna mala acción financiera podrás corregirlo y volver al estado saludable financieramente hablando."
+                android:textColor="@color/colorLetras"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView62"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arial"
+                android:text="Selecciona Etapa"
+                android:textColor="@color/colorLetras" />
+
+            <Spinner
+                android:id="@+id/spinnerEtapas"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8sp"
+                android:background="@drawable/styles_spinner1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txvMontopasivo3" />
+
+            <Button
+                android:id="@+id/btnSeleccionar"
+                android:layout_width="119dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="20sp"
+                android:background="@drawable/button_rounded"
+                android:onClick="seleccionarEtapa"
+                android:text="seleccionar"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/spinnerMes" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
